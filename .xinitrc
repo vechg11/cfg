@@ -8,11 +8,11 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 
 # autostart
-feh --bg-scale ~/Pictures/super-mario.png &
+feh --bg-scale ~/Pictures/nord.png &
 fcitx5 &
 
-# dwm bar
-dash ~/bar.sh &
+# lemon bar
+./lemon.sh &
 
 # start wm
-exec dwm
+exec sowm
